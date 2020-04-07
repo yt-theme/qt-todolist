@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="2">
+     <widget class="QLineEdit" name="lineEdit_password">
+      <property name="placeholderText">
+       <string>Password</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QPushButton" name="login">
+      <property name="maximumSize">
+       <size>
+        <width>16777214</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Login</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLineEdit" name="lineEdit_serverip">
+      <property name="text">
+       <string>http://localhost:14499</string>
+      </property>
+      <property name="placeholderText">
+       <string>Server Login Api</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>141</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lineEdit_username">
+      <property name="placeholderText">
+       <string>User name</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6">
+     <widget class="QCheckBox" name="checkBox_showpop">
+      <property name="text">
+       <string>ShowPop</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="7">
+     <widget class="QListWidget" name="listWidget"/>
+    </item>
+    <item row="0" column="4">
+     <widget class="QPushButton" name="sync">
+      <property name="text">
+       <string>Sync</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionexit">
+   <property name="text">
+    <string>exit</string>
+   </property>
+  </action>
+  <action name="actioncostom_setting">
+   <property name="text">
+    <string>costom setting</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
